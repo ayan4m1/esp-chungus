@@ -23,3 +23,4 @@ Chungus is an ESP32-S3 development board created as a learning exercise in KiCad
 
 ![raytraced pcb](./images/render-raytraced.png)
 ![pcb](./images/render.png)
+![pcb](./images/render-back.png)
