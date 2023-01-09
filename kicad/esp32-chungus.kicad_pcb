@@ -1394,7 +1394,7 @@
     (property "Sheetname" "")
     (path "/e513ac36-3855-410b-a482-22313e4cad96")
     (attr through_hole)
-    (fp_text reference "J3" (at 1.281808 27.605972) (layer "F.SilkS")
+    (fp_text reference "J3" (at 1.281808 27.605972) (layer "F.SilkS") hide
       (effects (font (size 0.5 0.5) (thickness 0.0625)))
       (tstamp bd668dd6-15d0-410d-a629-916110e68aff)
     )
