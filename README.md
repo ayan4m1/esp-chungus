@@ -5,10 +5,17 @@ Chungus is an ESP32-S3 development board created as a learning exercise in KiCad
 ## Features
 
 - [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3) - Dual-core 240Mhz processor with WiFi and Bluetooth
-- Breadboard-friendly pinout/dimensions (26.5 x 39 mm)
+- Breadboard-friendly pinout/dimensions (26.5 mm wide, 22.86mm between pin headers)
 - 19 GPIOs broken out to pins
 - Onboard WS2812B RGB LED connected to GPIO48
 - Onboard Reset and Boot (GPIO0) switches
+- Optional Li-ion battery charger
+
+## Notes
+
+Either ESP32-S3-WROOM-1 (PCB antenna) or ESP32-S3-WROOM-1U (IPEX antenna connector) are suitable for these boards.
+
+The voltage regulator was chosen specifically for its low quiescent current. If you cannot source it, look for SOT23-5 LDO regulators with 3.3V output voltage and at least 500mA output current.
 
 ## Libraries
 
