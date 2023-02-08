@@ -52,11 +52,13 @@ The voltage regulator was chosen specifically for its low quiescent current. If 
 | J2         | JST-PH-2              | LiPo connector      |
 | J3/J4      | 2.54mm Pin Header     |                     |
 | R1         | 0603 SMD 10k Ohm      |                     |
+| R2         | 0603 SMD 100k Ohm     |                     |
 | S1/S2      | PTS526_SM15_SMTR2_LFS | Tactile switch      |
 | U1         | ESP32-S3-WROOM-1U     |                     |
 | U2         | MAX1551EZK+T          | LiPo Charge IC      |
 | U3         | RT9080-33GJ5          | Voltage regulator   |
 | U4         | WS2812B               | RGB LED             |
+| Q1         | CJ2301                | P-channel FET       |
 
 ## Schematic
 
